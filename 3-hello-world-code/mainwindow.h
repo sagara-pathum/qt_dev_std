@@ -6,7 +6,7 @@ class MainWindow : public QMainWindow{
 	Q_OBJECT
 	public:
 		explicit MainWindow(QWidget *parent);
-		~MainWindow() override;
+		virtual ~MainWindow() override;
 
 	private:
 };
